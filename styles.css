@@ -1,0 +1,37 @@
+.box{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.content{
+    font-family: var(--font-,Poppins);
+    font-weight: 900;
+    font-size: 50px;
+    width: 70%;
+    color: rgba(152, 193, 217, 0.5);
+}
+.tagline{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.att{
+    font-family: Poppins;
+    color: #2261B2;
+}
+
+@media (max-width: 767px) {
+    .content{
+        font-family: var(--font-,Poppins);
+        font-weight: 900;
+        font-size:30px;
+        width: 300px;
+        color: rgba(152, 193, 217, 0.5);
+    }
+    
+}
